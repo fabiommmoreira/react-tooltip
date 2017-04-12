@@ -55,7 +55,9 @@
 }
 
 .__react_component_tooltip {
-  border-radius: 3px;
+  border-radius: 2px;
+  background-color: #FFF;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px #CCC;
   display: inline-block;
   font-size: 13px;
   left: -999em;
@@ -75,7 +77,7 @@
     position: absolute;
   }
   &.show {
-    opacity: 0.9;
+    opacity: 1;
     margin-top: 0px;
     margin-left: 0px;
     visibility: visible;
@@ -177,16 +179,19 @@
   &.place-right {
     margin-left: 10px;
     &:before {
-      border-top: 6px solid transparent;
-      border-bottom: 6px solid transparent;
-      left: -8px;
+      border-right-color: #CCC;
+      border-right-style: solid;
+      border-right-width: 6px;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      left: -6px;
       top: 50%;
-      margin-top: -5px;
+      margin-top: -4px;
     }
     &:after {
       border-top: 5px solid transparent;
       border-bottom: 5px solid transparent;
-      left: -6px;
+      left: -5px;
       top: 50%;
       margin-top: -4px;
     }
