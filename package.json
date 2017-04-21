@@ -1,5 +1,5 @@
 {
-  "name": "react-tooltip",
+  "name": "tvg-react-tooltip",
   "version": "3.2.10",
   "description": "react tooltip component",
   "main": "dist/index.js",
